@@ -1,0 +1,71 @@
+.App {
+  background-color: #282c34;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative;
+  box-shadow: inset 0 0 200px black;
+}
+
+.App-header::before {
+  content: '';
+  background-image: url('./background.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+}
+
+.App-header h1 {
+  text-shadow: 0 0 100px white;
+}
+
+.cuerpo {
+  position: relative;
+}
+
+.tituloSeccion {
+  left: 0;
+  position: absolute;
+  width: 75%;
+  margin: 0;
+  background-color: #282c34;
+  color: white;
+  padding: 15px 0;
+  position: relative;
+  box-shadow: 5px 5px 10px black;
+  text-align: center;
+}
+
+.cuerpo {
+  width: 75%;
+  margin: auto;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.seccion {
+  padding: 40px;
+  text-align: justify;
+}
+
+.lista li a{
+  text-decoration: none;
+  color: rgb(37, 38, 41);
+}
+
+.lista li:hover {
+  text-decoration: underline;
+}

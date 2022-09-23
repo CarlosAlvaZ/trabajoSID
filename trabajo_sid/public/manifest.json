@@ -1,0 +1,9 @@
+{
+  "short_name": "Trabajo Investigativo SID",
+  "name": "Trabajo Investigativo SID",
+  "icons": [ ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
